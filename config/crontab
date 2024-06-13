@@ -1,0 +1,1 @@
+*/2 * * * * python /app/auto/main.py

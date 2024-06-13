@@ -1,0 +1,14 @@
+*.pyc
+*.sqlite3
+__pycache__/
+*.log
+*.pot
+*.mo
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+venv/
+env/
+*.iml
+*.ipynb
