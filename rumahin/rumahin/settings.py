@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'rumahin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django',
+        'NAME': 'django_tester_1',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': '127.0.0.1',
