@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'rumahin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django',
+        'NAME': 'django_tester',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'my-secret-pw',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }
@@ -135,4 +135,4 @@ TAILWIND_APP_NAME = 'theme'
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
-NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"
+NPM_BIN_PATH = "/usr/bin/npm"
